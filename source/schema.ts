@@ -12,7 +12,7 @@ type DeepPartial<T> = T extends object
 /**
  * Configurations of Levdwire plugins.
  */
-type LevdwireUIPlugins = {}
+type LevdwirePlugins = {}
 
 /**
  * Configurations of default theme.
@@ -22,14 +22,14 @@ type BaseTheme = Config['theme']
 /**
  * Configurations of default theme.
  */
-type LevdwireUITheme = BaseTheme &
+type LevdwireTheme = BaseTheme &
     DeepPartial<{
-        levdwire: LevdwireUIPlugins
+        levdwire: LevdwirePlugins
     }>
 
 /**
  * Configurations of Levdwire.
  */
-export type LevdwireUIConfig = Config & {
-    theme?: LevdwireUITheme & { extend?: LevdwireUITheme }
+export type LevdwireConfig = Config & {
+    theme?: LevdwireTheme & { extend?: LevdwireTheme }
 }
