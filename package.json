@@ -1,0 +1,15 @@
+{
+  "name"              : "@levdwire/tailwind",
+  "type"              : "module",
+  "version"           : "1.0.0",
+  "license"           : "MIT",
+  "author"            : "Srylius <hello@srylius.com> (https://srylius.com)",
+  "repository"        : "levdwire/tailwind",
+  "bugs"              : "https://github.com/levdwire/tailwind/issues",
+  "homepage"          : "https://github.com/levdwire/tailwind",
+  "keywords"          : ["css", "html", "lightweight", "components", "typescript", "utilities", "eslint", "prettier", "tailwind", "tailwindcss", "levdwire", "levdwire-ui"],
+  "files"             : [],
+  "scripts"           : {},
+  "dependencies"      : {},
+  "devDependencies"   : {}
+}
