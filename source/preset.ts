@@ -6,13 +6,17 @@ import { defaultTheme } from './theme'
 
 /**
  * Identifying symbol for unique configuration options.
+ *
+ * @type {string}
  */
-const LevdwireSymbol = '__is_levdwire'
+const LevdwireSymbol: string = '__is_levdwire'
 
 /**
  * Test if a tailwind config has the levdwire preset already added.
+ *
+ * @return {boolean}
  */
-export function hasPreset(config: LevdwireConfig) {
+export function hasPreset(config: LevdwireConfig): boolean {
     // Check if a default config has already been added.
     if (config.presets && Array.isArray(config.presets)) {
         return config.presets.some((preset) => preset && LevdwireSymbol in preset)
@@ -39,6 +43,7 @@ export function createPreset({theme = defaultTheme, plugins = [
     theme?: LevdwireConfig['theme']
     plugins?: LevdwireConfig['plugins']
 } = {}) {
+    // Configure some preset settings.
     const config = {
         darkMode : ['selector', '[levdwire:mode="dark"]'],
         content  : [], 
@@ -58,6 +63,6 @@ export function createPreset({theme = defaultTheme, plugins = [
 }
 
 /**
- * The default shuriken-ui preset
+ * The default levdwire preset.
  */
 export const preset = createPreset()
