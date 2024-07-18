@@ -1,4 +1,4 @@
-import levdwireColors from './color'
+import levdwireColors from './colors'
 
 /**
  * Default theme for levdwire preset.
