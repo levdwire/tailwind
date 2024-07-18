@@ -1,16 +1,24 @@
-export default interface LevdwireColors {
+/**
+ * @name         LevdwireColors - Levdwire
+ * @description  <b>LevdwireColors</b> - Next generation user and application interface kit for developers.
+ * @version      v1.0.0
+ * @author       Selçuk Çukur <hk@selcukcukur.com.tr>
+ * @license      The MIT License (https://levdwire.com/docs/license)
+ * @copyright    (C) 2010 - 2024 Srylius (Srylius Teknoloji Limited Şirketi)
+ **/
+export interface LevdwireColors {
     // Color (Inherit)
-    inherit     : 'inherit'
+    inherit: 'inherit'
     // Color (Current)
-    current     : 'currentColor'
+    current: 'currentColor'
     // Color (Transparent)
     transparent : 'transparent'
     // Color (Black)
-    black       : '#000'
+    black: '#000'
     // Color (White)
-    white       : '#fff'
+    white: '#fff'
     // Color (Slate)
-    slate       : {
+    slate: {
         '50': '#f8fafc'
         '100': '#f1f5f9'
         '200': '#e2e8f0'
@@ -24,7 +32,7 @@ export default interface LevdwireColors {
         '950': '#020617'
     }
     // Color (Gray)
-    gray        : {
+    gray: {
         '50': '#ffffff'
         '100': '#F9F9F9'
         '200': '#F4F4F4'
@@ -38,7 +46,7 @@ export default interface LevdwireColors {
         '950': '#14172a'
     }
     // Color (Zinc)
-    zinc        : {
+    zinc: {
         '50': '#fafafa'
         '100': '#f4f4f5'
         '200': '#e4e4e7'
@@ -52,7 +60,7 @@ export default interface LevdwireColors {
         '950': '#09090b'
     }
     // Color (Neutral)
-    neutral     : {
+    neutral: {
         '50': '#fafafa'
         '100': '#f5f5f5'
         '200': '#e5e5e5'
@@ -66,7 +74,7 @@ export default interface LevdwireColors {
         '950': '#0a0a0a'
     }
     // Color (Stone)
-    stone       : {
+    stone: {
         '50': '#fafaf9'
         '100': '#f5f5f4'
         '200': '#e7e5e4'
@@ -80,7 +88,7 @@ export default interface LevdwireColors {
         '950': '#0c0a09'
     }
     // Color (Red)
-    red         : {
+    red: {
         '50': '#fef2f2'
         '100': '#fee2e2'
         '200': '#fecaca'
@@ -94,7 +102,7 @@ export default interface LevdwireColors {
         '950': '#450a0a'
     }
     // Color (Orange)
-    orange      : {
+    orange: {
         '50': '#fff7ed'
         '100': '#ffedd5'
         '200': '#fed7aa'
@@ -108,7 +116,7 @@ export default interface LevdwireColors {
         '950': '#431407'
     }
     // Color (Amber)
-    amber       : {
+    amber: {
         '50': '#fffbeb'
         '100': '#fef3c7'
         '200': '#fde68a'
@@ -122,7 +130,7 @@ export default interface LevdwireColors {
         '950': '#451a03'
     }
     // Color (Yellow)
-    yellow      : {
+    yellow: {
         '50': '#fefce8'
         '100': '#fef9c3'
         '200': '#fef08a'
@@ -136,7 +144,7 @@ export default interface LevdwireColors {
         '950': '#422006'
     }
     // Color (Lime)
-    lime        : {
+    lime: {
         '50': '#f7fee7'
         '100': '#ecfccb'
         '200': '#d9f99d'
@@ -150,7 +158,7 @@ export default interface LevdwireColors {
         '950': '#1a2e05'
     }
     // Color (Green)
-    green       : {
+    green: {
         '50': '#f0fdf4'
         '100': '#dcfce7'
         '200': '#bbf7d0'
@@ -164,7 +172,7 @@ export default interface LevdwireColors {
         '950': '#052e16'
     }
     // Color (Emerald)
-    emerald     : {
+    emerald: {
         '50': '#ecfdf5'
         '100': '#d1fae5'
         '200': '#a7f3d0'
@@ -178,7 +186,7 @@ export default interface LevdwireColors {
         '950': '#022c22'
     }
     // Color (Teal)
-    teal        : {
+    teal: {
         '50': '#f0fdfa'
         '100': '#ccfbf1'
         '200': '#99f6e4'
@@ -192,7 +200,7 @@ export default interface LevdwireColors {
         '950': '#042f2e'
     }
     // Color (Cyan)
-    cyan        : {
+    cyan: {
         '50': '#ecfeff'
         '100': '#cffafe'
         '200': '#a5f3fc'
@@ -206,7 +214,7 @@ export default interface LevdwireColors {
         '950': '#083344'
     }
     // Color (Sky)
-    sky         : {
+    sky: {
         '50': '#f0f9ff'
         '100': '#e0f2fe'
         '200': '#bae6fd'
@@ -220,7 +228,7 @@ export default interface LevdwireColors {
         '950': '#082f49'
     }
     // Color (Blue)
-    blue        : {
+    blue: {
         '50': '#eff6ff'
         '100': '#dbeafe'
         '200': '#bfdbfe'
@@ -234,7 +242,7 @@ export default interface LevdwireColors {
         '950': '#172554'
     }
     // Color (Indigo)
-    indigo      : {
+    indigo: {
         '50': '#eef2ff'
         '100': '#e0e7ff'
         '200': '#c7d2fe'
@@ -248,7 +256,7 @@ export default interface LevdwireColors {
         '950': '#1e1b4b'
     }
     // Color (Violet)
-    violet      : {
+    violet: {
         '50': '#f5f3ff'
         '100': '#ede9fe'
         '200': '#ddd6fe'
@@ -262,7 +270,7 @@ export default interface LevdwireColors {
         '950': '#2e1065'
     }
     // Color (Purple)
-    purple      : {
+    purple: {
         '50': '#faf5ff'
         '100': '#f3e8ff'
         '200': '#e9d5ff'
@@ -276,7 +284,7 @@ export default interface LevdwireColors {
         '950': '#3b0764'
     }
     // Color (Fuchsia)
-    fuchsia     : {
+    fuchsia: {
         '50': '#fdf4ff'
         '100': '#fae8ff'
         '200': '#f5d0fe'
@@ -290,7 +298,7 @@ export default interface LevdwireColors {
         '950': '#4a044e'
     }
     // Color (Pink)
-    pink        : {
+    pink: {
         '50': '#fdf2f8'
         '100': '#fce7f3'
         '200': '#fbcfe8'
@@ -304,7 +312,7 @@ export default interface LevdwireColors {
         '950': '#500724'
     }
     // Color (Rose)
-    rose        : {
+    rose: {
         '50': '#fff1f2'
         '100': '#ffe4e6'
         '200': '#fecdd3'
@@ -317,9 +325,8 @@ export default interface LevdwireColors {
         '900': '#881337'
         '950': '#4c0519'
     }
-
     // Contextual (Primary)
-    primary     : {
+    primary: {
         // Srylius :: Light
         DEFAULT: 'rgb(76, 149, 108)',
         active: 'rgb(84, 181, 126)',
@@ -330,7 +337,7 @@ export default interface LevdwireColors {
         inverse: 'rgb(236, 253, 245)'
     }
     // Contextual (Secondary)
-    secondary   : {
+    secondary: {
         // Srylius :: Light
         DEFAULT: 'rgb(186,230,253)',
         active: 'rgb(224, 242, 254)',
@@ -341,7 +348,7 @@ export default interface LevdwireColors {
         inverse: 'rgb(71, 85, 105)',
     }
     // Contextual (Light)
-    light       : {
+    light: {
         // Srylius :: Light
         DEFAULT: 'rgb(226, 232, 240)',
         'active': 'rgb(241, 245, 249)',
@@ -352,7 +359,7 @@ export default interface LevdwireColors {
         'inverse': 'rgb(71, 85, 105)'
     }
     // Contextual (Muted)
-    muted       : {
+    muted: {
         // Srylius :: Light
         DEFAULT: 'rgb(226, 232, 240)',
         'active': 'rgb(241, 245, 249)',
@@ -363,7 +370,7 @@ export default interface LevdwireColors {
         'inverse': 'rgb(71, 85, 105)'
     }
     // Contextual (Success)
-    success     : {
+    success: {
         DEFAULT: 'rgb(16,185,129)',
         'active': 'rgb(52, 211, 153)',
         'light': 'rgba(20,184,166,.1)',
@@ -373,7 +380,7 @@ export default interface LevdwireColors {
         'inverse': '#fff'
     }
     // Contextual (Info)
-    info        : {
+    info: {
         DEFAULT: 'rgb(14, 165, 233)',
         'active': 'rgb(56, 189, 248)',
         'light': 'rgba(14, 165, 233, .1)',
@@ -383,7 +390,7 @@ export default interface LevdwireColors {
         'inverse': '#fff'
     }
     // Contextual (Danger)
-    danger      : {
+    danger: {
         DEFAULT: 'rgb(244,63,94)',
         'active': 'rgb(251, 113, 133)',
         'light': 'rgba(244, 63, 94, .1)',
@@ -393,7 +400,7 @@ export default interface LevdwireColors {
         'inverse': '#fff'
     }
     // Contextual (Warning)
-    warning     : {
+    warning: {
         DEFAULT: '',
         'active': 'rgb(245,158,11)',
         'light': 'rgba(245, 158, 11, .1)',
@@ -403,3 +410,9 @@ export default interface LevdwireColors {
         'inverse': '#fff'
     }
 }
+
+// Define colors as constants for general use and accessibility.
+declare const levdwireColors: LevdwireColors
+
+// Set "levdwireColors" constant as default export.
+export default levdwireColors
