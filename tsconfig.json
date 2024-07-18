@@ -9,6 +9,6 @@
     "paths"             : {}
   },
   "include"         : [
-    "source"
+    "src"
   ]
 }
